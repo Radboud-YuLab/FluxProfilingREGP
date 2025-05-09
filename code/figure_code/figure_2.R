@@ -49,7 +49,7 @@ ggplot(count_means) +
   theme_bw() + theme(legend.position='none') +
   labs(x='time', y='ln(mean cell count)')
 
-ggsave("figures/raw_plots/Fig2_growth.pdf", width=3.7, height=3.7)
+ggsave("figures/Fig2_growth.pdf", width=3.7, height=3.7)
 
 
 
@@ -78,7 +78,7 @@ ggplot(glu) +
   theme_bw() + theme(legend.position='none') +
   labs(x='time', y='mmol glutamate in culture media, \nnormalized to cell count and cell dry weight)')
 
-ggsave("figures/raw_plots/Fig2_glu.pdf", width=3.7, height=3.7)
+ggsave("figures/Fig2_glu.pdf", width=3.7, height=3.7)
 
 #panel C: glycine
 gly <- metab[metab$metabolite=="Gly",2:4]
@@ -107,4 +107,4 @@ ggplot(gly) +
   theme_bw() + theme(legend.position='none') +
   labs(x='time', y='mmol glycine in culture media, \nnormalized to cell count and cell dry weight)')
 
-ggsave("figures/raw_plots/Fig2_gly.pdf", width=3.7, height=3.7)
+ggsave("figures/Fig2_gly.pdf", width=3.7, height=3.7)

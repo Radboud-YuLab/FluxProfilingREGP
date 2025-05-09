@@ -20,7 +20,7 @@ z_scores_matrix <- as.matrix(z_scores)
 z_scores_matrix <- t(z_scores_matrix)  
 
 z_scores_matrix_capped <- pmax(pmin(z_scores_matrix, 3), -3)
-pdf("figures/raw_plots/Fig4.pdf", width = 15, height = 15)
+pdf("figures/Fig4.pdf", width = 15, height = 15)
 Heatmap(z_scores_matrix_capped, 
         cluster_columns = FALSE, 
         col = colorRamp2(c(-3, 0, 3), c("#228be6", "white", "#f03e3e")))  

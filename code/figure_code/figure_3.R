@@ -28,7 +28,7 @@ ggplot(meas_0, aes(x = Condition)) +
   ylab("Growth Rate")+
   scale_y_break(c(0.25,0.7), ticklabels=c(0.7,0.75,0.8))
 
-ggsave("figures/raw_plots/Fig3a.pdf", width = 6, height = 6, units = "in")
+ggsave("figures/Fig3a.pdf", width = 6, height = 6, units = "in")
 
 
 
@@ -50,7 +50,7 @@ ggplot(meas_20, aes(x = Condition)) +
   ylab("Growth Rate")+
   scale_y_break(c(0.25,0.7), ticklabels=c(0.7,0.75,0.8))
 
-ggsave("figures/raw_plots/Fig3b.pdf", width = 6, height = 6, units = "in")
+ggsave("figures/Fig3b.pdf", width = 6, height = 6, units = "in")
 
 
 
@@ -72,7 +72,7 @@ ggplot(meas_700, aes(x = Condition)) +
   ylab("Growth Rate") +
   scale_y_break(c(0.25,0.7), ticklabels=c(0.7,0.75,0.8))
 
-ggsave("figures/raw_plots/Fig3c.pdf", width = 6, height = 6, units = "in")
+ggsave("figures/Fig3c.pdf", width = 6, height = 6, units = "in")
 
 
 

@@ -63,7 +63,7 @@ ggplot(all_data, aes(x = method, y = mmol_gDW_hr, fill = method)) +
   labs(x = "Method", y = "mmol/gDW/hr", title = "Exchange Flux per Method") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-ggsave("figures/raw_plots/Fig1c_exch_flux_comparison.pdf", width=10, height=10)
+ggsave("figures/Fig1c_exch_flux_comparison.pdf", width=10, height=10)
 
 
 
